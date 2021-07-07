@@ -1,0 +1,219 @@
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;;
+}
+
+a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #ffff;
+}
+
+section .container .left{
+    width: 775px;
+    /* outline: 1px solid tomato; */
+    margin-right: 30px;
+}
+
+section .container{
+    padding-top: 70px;
+}
+
+section .container .left .name h1{
+    font-size: 72px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+section .container .left .name h1 span{
+    font-weight: 600;
+}
+
+section .container .left .name h3{
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+section .container .left .name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    right: 15px;
+}
+
+section .container .left .call{
+    padding-top: 70px;
+    display: flex;
+    
+}
+
+section .container .left .call .call-icons{
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid black; */
+    background-color: #f1cb59;
+    width: 50px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+section .container .left .call .call_title h4{
+    font-size: 22px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #707070;
+    line-height: 35px;
+    transition: 0.7s;
+}
+
+section .container .left .call .call_title{
+    padding-left: 30px;
+  
+}
+
+section .container .left .call .call_title h4:hover{
+    color: #f1cb59;
+}
+
+section .container .left .call .call-icons i:hover{
+    color: rosybrown;
+    transition: 0.8s;
+}
+
+section .container .left .profile h3{
+    text-transform: uppercase;
+    font-size: 75px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+section .container .left .profile{
+    margin-top: 90px;
+}
+
+section .container .left .profile p{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 26px;
+}
+
+section .container .right .img{
+    width: 300px;
+    height: 340px;
+    background: url(../photo_2020-12-13_00-12-45.jpg); 
+    background-color: #f1cb59;
+    background-size: cover;
+    background-position: center center;
+    background-clip: border-box;
+}
+
+section .container{
+    display: flex;
+    /* margin-top: 30px; */
+}
+
+section .container .right{
+   position: relative;
+   /* left: 25px; */
+}
+
+
+.line{
+    width: 5px;
+    height: 1155px;
+    background-color: #f1cb59;
+    margin-top: 450px;
+}
+
+.tab{
+    width: 50px;
+    height: 60px;
+    background-color: #f1cb59;
+    position: absolute;
+    top: 0;
+}
+
+.right .container .education h3{
+    text-transform: uppercase;
+    font-size: 43px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.right .container{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+
+.right .container .education h4{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.right .container .education h5{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    width: 245px;
+}
+
+.right .container .education h6{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 15px;
+    width: 245px;
+    margin-bottom: 80px;
+}
+
+.right .container .education ul li{
+    color: #f1cb59;
+    line-height: 36px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.right .container .education ul li span{
+    color: #212529;
+}
+
+.right .container .education ul{
+     margin-bottom: 80px;
+}
+
+
+footer{
+    height: 70px;
+    background: #f1cb59;
+    color: antiquewhite;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    position: relative;
+    top: 25px;
+}
+
+footer a{
+    color: rgb(218, 205, 190);
+}
+
